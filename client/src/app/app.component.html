@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<ul>
+    <li *ngFor="let usr of user">
+        <h2>{{usr.id}} {{usr.userName}}</h2>
+    </li>
+</ul>
+<router-outlet>
+</router-outlet>
